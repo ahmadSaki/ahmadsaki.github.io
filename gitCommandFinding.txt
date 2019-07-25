@@ -27,6 +27,7 @@ git branch -d <Branchname>			# Delete the branch ('-D' will delete unmerge branc
 git clone <URL>					# Clone repository into a new repository
 
 git remote add origin <URL>			# Add a remote repository
+git fetch					# Fetch from remote repository
 git pull					# Pull latest from remote repository
 git push -u origin <Branchname>			# Push to remote repository (need to use username & password)
 
