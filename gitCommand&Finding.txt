@@ -1,0 +1,31 @@
+~~~~~ COMMAND ~~~~~
+
+# Configure username of local repository to git (only for current directory remove '--global')
+git config --global user.name "username"
+# Configure email of local repository to git (only for current directory remove '--global')
+git config --global user.email "email@adress"
+
+git help					# See all of these git command
+git init					# Initialize local git repository ('.git' hidden folder will be here)
+git status					# Check status of working tree
+
+git add <Filename>				# The file add to Index (Staging area)
+git add <*.Extention>				# All '.Extention' file(s) add to Index (Staging area)
+git add . 					# All file(s) add to Index (Staging area)
+
+git rm --cached <FilenameWithExtention>		# Remove the file from Index (Staging area)
+
+git commit -m "message"				# Commit changes in Index (Staging Area)
+
+git clone <URL>					# Clone repository into a new repository
+git pull					# Pull latest from remote repository
+git push					# Push to remote repository
+
+ls						# List file(s) in the directory
+cat <FilenameWithExtention>			# View inside of the file
+touch <Filename>				# Create new file in the directory
+gedit <FilenameWithExtention>			# Edit file on different window
+
+
+
+~~~~~ ISSUE_FINDING ~~~~~
