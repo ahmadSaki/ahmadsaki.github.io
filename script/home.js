@@ -1,3 +1,4 @@
+
 function cvDownload(x) {
   var url;
 
@@ -6,7 +7,7 @@ function cvDownload(x) {
   };
 
   if (x == "localResourceURL") {
-    var url = 'resource/AHMAD-SAKI_CV_20190724.pdf';
+    var url = 'resource/AHMAD-SAKI_CV.pdf';
   };
 
   window.open(url, 'Download');
