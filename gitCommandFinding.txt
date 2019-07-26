@@ -8,9 +8,11 @@ git help						# See all of these git command
 git init						# Initialize local git repository ('.git' hidden folder will be here)
 git status						# Check status of working tree
 
-git add <Filename>					# The file add to Index (Staging area)
+git add <FilenameWithExtention>				# The file add to Index (Staging area)
+git add -f <FilenameWithExtention>			# The file add to Index (Staging area) by force
 git add <*.Extention>					# All '.Extention' file(s) add to Index (Staging area)
 git add . 						# All file(s) add to Index (Staging area)
+git add --a 						# All file(s) add to Index (Staging area)
 
 git rm --cached <FilenameWithExtention>			# Remove the file from Index (Staging area)
 git rm -r <FilenameWithExtention>			# Remove the file from Repository
