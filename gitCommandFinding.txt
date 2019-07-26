@@ -71,7 +71,7 @@ Process_01:
 	ii)	Open '.gitignore' file using text editor & write down the Filename.Extension, /Foldename
 		ex:	log.txt
 			/directory
-	iii)	The file(s) ignore from one repository only either remote or local.
+	iii)	The file(s) only ignore from one repository either remote or local.
 	iv)	git config --global <FilenameWithExtention> ~/.gitignore
 		command for ignore globally
 	v)	echo <FilenameWithExtention> >> .gitignore
