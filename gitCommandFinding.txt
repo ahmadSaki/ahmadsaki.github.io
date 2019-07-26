@@ -31,9 +31,11 @@ git remote add origin <URL>				# Add a remote repository
 git fetch						# Fetch from remote repository
 git fetch origin					# Fetch from remote repository
 git fetch origin <LocalBranchName>:<RemoteBranchName>	# Fetch from remote repository
+git merge FETCH_HEAD					# Integrate remote and local changes
 git pull						# Pull latest from remote repository
 
-git push -u origin <Branchname>				# Push to remote repository (need to use username & password)
+git push -u origin <Branchname>				# Push to remote repository (first time need to use username & password)
+git push origin <Branchname>				# Push to remote repository (first time need to use username & password)
 
 git stash -u						# Modified or new file(s) of the repository make clear without commit
 git stash list						# Modification stash command can be listed
@@ -67,6 +69,7 @@ Process_01:
 	ii)	Open '.gitignore' file using text editor & write down the Filename.Extension, /Foldename
 		ex:	log.txt
 			/directory
+	iii)	The file(s) must exist in single repository either remote or local.
 
 
 
