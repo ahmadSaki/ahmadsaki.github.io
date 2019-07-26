@@ -39,6 +39,9 @@ git pull						# Pull latest from remote repository
 git push -u origin <Branchname>				# Push to remote repository (first time need to use username & password)
 git push origin <Branchname>				# Push to remote repository (first time need to use username & password)
 
+git clean -n						# Modified or new (Non-index Or Unstaging ares's file(s)) file(s) will listed
+git clean -f						# Modified or new (Non-index Or Unstaging ares's file(s)) file(s) will cleaned forcefully.
+
 git stash -u						# Modified or new file(s) of the repository make clear without commit
 git stash list						# Modification stash command can be listed
 git stash show						# Inspect the stash list
@@ -71,7 +74,7 @@ Process_01:
 	ii)	Open '.gitignore' file using text editor & write down the Filename.Extension, /Foldename
 		ex:	log.txt
 			/directory
-	iii)	The file(s) only ignore from one repository either remote or local.
+	iii)	The file(s) only ignore from one repository either remote or local (Mostly used in local repository).
 	iv)	git config --global <FilenameWithExtention> ~/.gitignore
 		command for ignore globally
 	v)	echo <FilenameWithExtention> >> .gitignore
