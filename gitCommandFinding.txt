@@ -69,7 +69,6 @@ Process_01:
 	ii)	Open '.gitignore' file using text editor & write down the Filename.Extension, /Foldename
 		ex:	log.txt
 			/directory
-	iii)	The file(s) must exist in single repository either remote or local.
 
 
 
