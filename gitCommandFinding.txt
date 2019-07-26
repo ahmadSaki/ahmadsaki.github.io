@@ -103,3 +103,4 @@ Finding_02:
 	execute rm -f .git/index.lock command
 	
 	Comment: Such problems generally occur when you execute two git commands simultaneously; may be one from the command prompt and another from an IDE.
+
