@@ -1,0 +1,93 @@
+~~~~~ COMMAND ~~~~~
+# Configure username of local repository to git (only for current directory remove '--global')
+git config --global user.name "username"
+# Configure email of local repository to git (only for current directory remove '--global')
+git config --global user.email "email@adress"
+
+git help						# See all of these git command
+git init						# Initialize local git repository ('.git' hidden folder will be here)
+git status						# Check status of working tree
+
+git add <Filename>					# The file add to Index (Staging area)
+git add <*.Extention>					# All '.Extention' file(s) add to Index (Staging area)
+git add . 						# All file(s) add to Index (Staging area)
+
+git rm --cached <FilenameWithExtention>			# Remove the file from Index (Staging area)
+git rm -r <FilenameWithExtention>			# Remove the file from Repository
+
+git commit -m "message"					# Commit changes in Index (Staging Area)
+
+git branch						# Check all of the branches ('* Branchname' means current branch)
+git branch <Branchname>					# Create new branch of the repository
+git checkout -b <Branchname>				# Create new branch and also make it current working branch
+git checkout <Branchname>				# Switch to the branch
+git merge <Branchname>					# The branch will merge with default 'master' branch
+git branch -d <Branchname>				# Delete the branch ('-D' will delete unmerge branch also)
+
+git clone <URL>						# Clone repository into a new repository
+
+git remote add origin <URL>				# Add a remote repository
+
+git fetch						# Fetch from remote repository
+git fetch origin					# Fetch from remote repository
+git fetch origin <LocalBranchName>:<RemoteBranchName>	# Fetch from remote repository
+git pull						# Pull latest from remote repository
+
+git push -u origin <Branchname>				# Push to remote repository (need to use username & password)
+
+git stash -u						# Modified or new file(s) of the repository make clear without commit
+git stash list						# Modification stash command can be listed
+git stash show						# Inspect the stash list
+git stash apply						# Relige from stash stage
+
+git log							# Show the log of this repository
+git log --before='DatetimeOrDate'			# Chronological histore of this repository
+git log --author='AuthorName'				# Author history of this repository
+git log --oneline					# Give list of commits in one line
+
+git revert <CommitID>					# Revert to previous commit
+git revert HEAD						# Revert to last commit
+
+git rebase <Branchname>					# Status of up to date branch
+
+ls							# List file(s) in the directory
+clear							# Clear command prompt
+cat <FilenameWithExtention>				# View inside of the file
+mkdir <Directory>					# Make directory in the current directory
+touch <Filename>					# Create new file in the directory
+gedit <FilenameWithExtention>				# Edit file on different window
+
+
+
+~~~~~ Process ~~~~~
+Process_01:
+	Ignore file and folder from repository
+	
+	i)	Create <.gitignore> file
+	ii)	Open '.gitignore' file using text editor & write down the Filename.Extension, /Foldename
+		ex:	log.txt
+			/directory
+
+
+
+~~~~~ ISSUE_FINDING ~~~~~
+Issue_01:
+	git commit commad without message on git bash command prompt occur a confusing state.
+
+Finding_01:
+	Press 'Insert' key, write a message and write <:wq> 
+
+
+Issue_02:
+	fatal: Unable to create 'directory/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Finding_02:
+	execute rm -f .git/index.lock command
+	
+	Comment: Such problems generally occur when you execute two git commands simultaneously; may be one from the command prompt and another from an IDE.
