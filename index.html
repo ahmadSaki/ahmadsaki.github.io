@@ -4,21 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Self-Folio of Ahmad Saki</title>
+
     <link rel="stylesheet" href="style/home.css">
-    <script type="text/javascript" src="script/home.js"></script>
 </head>
 
 <body>
-    <h1>Ahmad Saki</h1>
+    <!-- Load header in index.html -->
+    <div id="embed_header"></div>
 
-    Software Developer at ZABERP Ltd.
-<br/><br/>
-<!-- Download CV -->
-    <!-- <a href="resource/AHMAD-SAKI_CV.pdf" download="#">Curriculum Vitae</a> -->
-    <a href="" onclick="cvDownload('localResourceURL')">Curriculum Vitae</a>
-    <!-- <button onclick="cvDownload('localResourceURL')">Curriculum Vitae</button>  -->
-    <!-- <button onclick="cvDownload('googleDirveURL')">Curriculum Vitae</button>  -->
-<!-- Download CV -->
+    <br /><br />
+
+    <!-- Load menu in index.html -->
+    <!-- <div id="embed_menu"></div> -->
+    <nav>
+        <ul id="menu">
+            <a href="#">
+                <li value="portfolio">Portfolio</li>
+            </a>
+            <a href="#">
+                <li value="contact">Contact</li>
+            </a>
+        </ul>
+    </nav>
+
+    <br /><br />
+
+    <!-- Load form in index.html -->
+    <div id="embed_form"></div>
+
+    <br /><br />
+
+    <!-- Load footer in index.html -->
+    <div id="embed_footer"></div>
+
+
+    <script type="text/javascript" src="script/home.js"></script>
+    <script type="text/javascript" src="script/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="script/load_d.js"></script>
 </body>
 
 </html>
