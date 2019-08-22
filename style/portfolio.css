@@ -1,4 +1,9 @@
-.personal_project{
+.personal_project_list {
+    margin: auto;
+    width: 50%;
+  }
+
+#personal_project a{
     width: 50%;
 }
 

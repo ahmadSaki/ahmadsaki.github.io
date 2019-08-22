@@ -1,7 +1,9 @@
+$("#embed_form").on("click", "#personal_project a", function () {
+    // alert($(this).attr('value'));
+    $('#personal_project_view').modal('show');
 
- $(".personal_project").click(function () {
-    // $('#personal_project_view').modal('show');
-    alert("Click Ok");
+    var appTitle = $(this).attr('value');   
+    $("#personal_project_view").find("#app-title").text(appTitle);
 });
 
 
