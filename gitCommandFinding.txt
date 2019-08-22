@@ -103,6 +103,19 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 
 Finding_02:
-	execute rm -f .git/index.lock command
+	CLI>> rm -f .git/index.lock
 	
 	Comment: Such problems generally occur when you execute two git commands simultaneously; may be one from the command prompt and another from an IDE.
+
+
+Issue_03:
+	warning: LF will be replaced by CRLF in script/bootstrap.min.js.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in style/bootstrap.min.css.
+	The file will have its original line endings in your working directory
+
+
+Finding_03:
+	CLI>> git config core.autocrlf true
+	
+	Comment: For this issue bootstrap does not push to github properly.
