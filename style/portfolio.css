@@ -1,17 +1,18 @@
-.personal_project_list {
-    margin: auto;
-    width: 50%;
-  }
 
 #personal_project a{
     width: 50%;
 }
 
-.modal-full {
-min-width: 100%;
-margin: 0;
+.personal_project_list {
+  margin: auto;
+  width: 50%;
 }
 
-.modal-full .modal-content {
+.modal-dialog-centered {
+min-width: 60%;
+margin: auto;
+}
+
+.modal-dialog-centered .modal-content {
 min-height: 100vh;
 }

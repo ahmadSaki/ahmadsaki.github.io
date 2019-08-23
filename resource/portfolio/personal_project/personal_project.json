@@ -1,0 +1,21 @@
+{
+    "doctor": {
+        "id": "doctor",
+        "name": "Doctor",
+        "decription": "E-consultancy system betweendoctor and patient",
+        "link": {
+            "sourcecode": "",
+            "photo-url": "resource/portfolio/personal_project/photo/doctor/"
+        }
+    },
+
+    "chorpolice": {
+        "id": "chorpolice",
+        "name": "Chor Police",
+        "decription": "Game (Standalone Application)",
+        "link": {
+            "sourcecode": "",
+            "photo-url": "resource/portfolio/personal_project/photo/chorpolice/"            
+        }
+    }
+}
