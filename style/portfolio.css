@@ -1,4 +1,12 @@
 
+.app-photo-id{
+  width:100%;
+}
+
+.app-photo-photo{
+  width:100%;
+}
+
 #personal_project a{
     width: 50%;
 }
@@ -9,7 +17,7 @@
 }
 
 .modal-dialog-centered {
-min-width: 60%;
+min-width: 50%;
 margin: auto;
 }
 

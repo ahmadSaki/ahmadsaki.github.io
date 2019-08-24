@@ -1,21 +1,25 @@
 {
     "doctor": {
         "id": "doctor",
-        "name": "Doctor",
-        "decription": "E-consultancy system betweendoctor and patient",
+        "title": "Doctor",
+        "description": "E-consultancy system betweendoctor and patient",
         "link": {
-            "sourcecode": "",
-            "photo-url": "resource/portfolio/personal_project/photo/doctor/"
+            "sourcecode": "#portfolio",
+            "live":"#portfolio",
+            "presentation":"#portfolio",
+            "photourl": ["/resource/portfolio/personal_project/photo/doctor/",13]
         }
     },
 
     "chorpolice": {
         "id": "chorpolice",
-        "name": "Chor Police",
-        "decription": "Game (Standalone Application)",
+        "title": "Chor Police",
+        "description": "Game (Standalone Application)",
         "link": {
-            "sourcecode": "",
-            "photo-url": "resource/portfolio/personal_project/photo/chorpolice/"            
+            "sourcecode": "#portfolio",
+            "live":"#portfolio",
+            "presentation":"#portfolio",
+            "photourl": ["/resource/portfolio/personal_project/photo/chorpolice/",0]            
         }
     }
 }
