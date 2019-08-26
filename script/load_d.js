@@ -1,9 +1,6 @@
 $(document).ready(function () {
 
 
-    var root_path = $(location).attr('hostname');
-    console.log(root_path);
-
     /*
     http://www.refulz.com:8082/index.php#tab2?foo=789
     

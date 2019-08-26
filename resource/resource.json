@@ -1,0 +1,16 @@
+{
+    "logo_url":{
+        "angularjs"             : "/resource/logo/AngularJS.png",
+        "bootstrap"             : "/resource/logo/Bootstrap.png",
+        "hibernate"             : "/resource/logo/HIBERNATE.png",
+        "html_css_js"           : "/resource/logo/HTML CSS JS.png",
+        "java_jdbc"             : "/resource/logo/Java JDBC.png",
+        "java"                  : "/resource/logo/Java.png",
+        "jquery"                : "/resource/logo/jQuery.png",
+        "maven"                 : "/resource/logo/Maven.png",
+        "microsoft_sql_server"  : "/resource/logo/Microsoft SQL Server.png",
+        "mysql"                 : "/resource/logo/MySQL.png",
+        "spring"                : "/resource/logo/spring.png"
+    }
+
+}

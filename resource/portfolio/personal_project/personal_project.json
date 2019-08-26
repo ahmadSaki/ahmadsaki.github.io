@@ -1,14 +1,85 @@
 {
+    "marmansys": {
+        "id": "marmansys",
+        "title": "Marmansys",
+        "description": "Marketing management system",
+        "link": {
+            "sourcecode": "https://github.com/sakiAhmad/marmansys.git",
+            "live":"",
+            "presentation":"",
+            "photourl": ["/resource/portfolio/personal_project/photo/marmansys/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2016-12-05T00:00:00.000Z",
+            "enddate":"2016-12-25T23:59:59.999Z"
+        },
+        "technology":["spring","Hibernate","AngularJS","MySQL","Jasper Report"],
+        "member":"Four",
+        "responsibility":"Planning, Designing, Deployment, Testing & Integration",
+        "role":"Team Leader"
+    },
+
+    "knowledgegamble": {
+        "id": "knowledgegamble",
+        "title": "KnowledgeGamble",
+        "description": "Quiz and Answer",
+        "link": {
+            "sourcecode": "https://drive.google.com/open?id=0B4aXOwBEaGefd0tfZXRoRGMybHM",
+            "live":"",
+            "presentation":"",
+            "photourl": ["/resource/portfolio/personal_project/photo/KnowledgeGamble/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2016-11-06T00:00:00.000Z",
+            "enddate":"2016-11-20T23:59:59.999Z"
+        },
+        "technology":["AngularJS","RESTful web service","Bootstrap","MySQL"],
+        "member":"Myself",
+        "responsibility":"Planning, Designing, Deployment, Testing",
+        "role":"Project holder"
+    },
+    
     "doctor": {
         "id": "doctor",
         "title": "Doctor",
         "description": "E-consultancy system betweendoctor and patient",
         "link": {
-            "sourcecode": "#portfolio",
-            "live":"#portfolio",
-            "presentation":"#portfolio",
+            "sourcecode": "https://drive.google.com/open?id=0B4aXOwBEaGefSmxlaHZubWY5VGM",
+            "live":"",
+            "presentation":"",
             "photourl": ["/resource/portfolio/personal_project/photo/doctor/",13]
-        }
+        },
+        "date" : {
+            "startdate":"2016-10-06T00:00:00.000Z",
+            "enddate":"2016-10-20T13:28:06.419Z"
+        },
+        "technology":["JSF","PrimeFaces","Hibernate","MySQL"],
+        "member":"Myself",
+        "responsibility":"Planning, Designing, Deployment, Testing",
+        "role":"Project holder"
+    },
+    
+    "androweb": {
+        "id": "androweb",
+        "title": "AndroWeb",
+        "description": "Website as a android app",
+        "link": {
+            "sourcecode": "https://drive.google.com/open?id=0B4aXOwBEaGefTldRYVZUSy04N2s",
+            "live":"",
+            "presentation":"",
+            "photourl": ["/resource/portfolio/personal_project/photo/androweb/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2016-07-06T00:00:00.000Z",
+            "enddate":"2016-07-20T23:59:59.999Z"
+        },
+        "technology":["Java","Android Studio"],
+        "member":"Myself",
+        "responsibility":"Planning, Designing, Deployment, Testing",
+        "role":"Project holder"
     },
 
     "chorpolice": {
@@ -16,10 +87,18 @@
         "title": "Chor Police",
         "description": "Game (Standalone Application)",
         "link": {
-            "sourcecode": "#portfolio",
-            "live":"#portfolio",
-            "presentation":"#portfolio",
+            "sourcecode": "https://mega.nz/#!Gk02ACzI",
+            "live":"",
+            "presentation":"",
             "photourl": ["/resource/portfolio/personal_project/photo/chorpolice/",0]            
-        }
-    }
+        },
+        "date" : {
+            "startdate":"2016-05-06T00:00:00.000Z",
+            "enddate":"2016-05-20T13:28:06.419Z"
+        },
+        "technology":["Swing","MySQL"],
+        "member":"Myself",
+        "responsibility":"Planning, Designing, Deployment, Testing",
+        "role":"Project holder"
+    }   
 }
