@@ -1,5 +1,6 @@
 
 function cvDownload(x) {
+  var current_view = $(location).attr('hash');
   var url;
 
   if (x == "googleDirveURL") {
@@ -9,8 +10,9 @@ function cvDownload(x) {
   if (x == "localResourceURL") {
     var url = 'resource/AHMAD-SAKI_CV.pdf';
   };
-
+  
+  document.getElementById("cvLink").href=current_view;
   window.open(url, 'Download');
-
-  // window.alert(x)
+  
+  // window.alert(current_view)
 } 

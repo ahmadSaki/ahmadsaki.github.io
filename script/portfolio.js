@@ -24,6 +24,7 @@ $("#embed_form").on("click", ".personal_project_list a", function () {
     var appSourcelink = data[appID].link.sourcecode;
     var appLivelink = data[appID].link.live;
     var appPresentaionlink = data[appID].link.presentation;
+    var appTutoriallink = data[appID].link.tutorial;
 
     var appStartdate = data[appID].date.startdate;
     var appEnddate = data[appID].date.enddate;
@@ -40,35 +41,66 @@ $("#embed_form").on("click", ".personal_project_list a", function () {
     var appPhotourl = data[appID].link.photourl[0];
     var appPhotocount = data[appID].link.photourl[1];
 
-    // Set application member, responsibility & role into modal
-    $("#personal_project_view").find("#app-member").text(appMember);
-    $("#personal_project_view").find("#app-responsibility").text(appResponsibility);
-    $("#personal_project_view").find("#app-role").text(appRole);
 
     // Set application title & description into modal
     $("#personal_project_view").find("#app-title").text(appTitle);
     $("#personal_project_view").find("#app-description").text(appDescription);
 
-    // Set project links into modal
+    // If link exist then set project links into modal
     if (appSourcelink == "") {
-      $("#personal_project_view").find("#app-sourcelink").remove();
+      $("#personal_project_view").find("#app-sourcelink div").remove();
     }
     else {
+      $("#personal_project_view").find("#app-sourcelink div").remove();
+      $("#personal_project_view").find("#app-sourcelink").append(
+        '<div class="col-sm-3">Source Code</div>'
+        + '<div class="col-sm-1">:</div>'
+        + '<div class="col-sm-8">&nbsp;<a href="#portfolio" class="tooltip-test" title="Click here to see soruce code">Source link</a></div>'
+        + '<div class="w-100"></div>'
+      );
       $("#personal_project_view").find("#app-sourcelink a").attr('target', '_blank').attr('href', appSourcelink).trigger('click');  //attr("href", appSourcelink);
     }
 
     if (appLivelink == "") {
-      $("#personal_project_view").find("#app-livelink").remove();
+      $("#personal_project_view").find("#app-livelink div").remove();
     }
     else {
+      $("#personal_project_view").find("#app-livelink div").remove();
+      $("#personal_project_view").find("#app-livelink").append(
+        '<div class="col-sm-3">Live</div>'
+        + '<div class="col-sm-1">:</div>'
+        + '<div class="col-sm-8">&nbsp;<a href="#portfolio" class="tooltip-test" title="Click here to live browsing">Live link</a></div>'
+        + '<div class="w-100"></div>'
+      );
       $("#personal_project_view").find("#app-livelink a").attr('target', '_blank').attr('href', appLivelink).trigger('click');
     }
 
     if (appPresentaionlink == "") {
-      $("#personal_project_view").find("#app-presentationlink").remove();
+      $("#personal_project_view").find("#app-presentationlink div").remove();
     }
     else {
+      $("#personal_project_view").find("#app-presentationlink div").remove();
+      $("#personal_project_view").find("#app-presentationlink").append(
+        '<div class="col-sm-3">Presentation</div>'
+        + '<div class="col-sm-1">:</div>'
+        + '<div class="col-sm-8">&nbsp;<a href="#portfolio" class="tooltip-test" title="Click here to see presentation">View link</a></div>'
+        + '<div class="w-100"></div>'
+      );
       $("#personal_project_view").find("#app-presentationlink a").attr('target', '_blank').attr('href', appPresentaionlink).trigger('click');
+    }
+
+    if (appTutoriallink == "") {
+      $("#personal_project_view").find("#app-tutoriallink div").remove();
+    }
+    else {
+      $("#personal_project_view").find("#app-tutoriallink div").remove();
+      $("#personal_project_view").find("#app-tutoriallink").append(
+        '<div class="col-sm-3">Tutorial</div>'
+        + '<div class="col-sm-1">:</div>'
+        + '<div class="col-sm-8">&nbsp;<a href="#portfolio" class="tooltip-test" title="Click here to see tutorial">Tutorial link</a></div>'
+        + '<div class="w-100"></div>'
+      );
+      $("#personal_project_view").find("#app-tutoriallink a").attr('target', '_blank').attr('href', appTutoriallink).trigger('click');
     }
 
     // Set application title & description into modal
@@ -82,21 +114,20 @@ $("#embed_form").on("click", ".personal_project_list a", function () {
       var appTechurl = "";
       var technum = 0;
 
-      ayJSON("/resource/resource.json", function (text) {      
+      ayJSON("/resource/resource.json", function (text) {
         var resource = JSON.parse(text);
 
-        $("#personal_project_view").find("#app-logo td").remove();
+        $("#personal_project_view").find("#app-logo span").remove();
 
         while (appTechlength > 0) {
-          appTechnology = data[appID].technology[technum].toLowerCase().replace(" ", "_");
+          appTechnology = data[appID].technology[technum].toLowerCase().split(' ').join('_');  //used <<< split(' ').join('_') >>> instead of <<< replace(" ", "_") >>> for all replacement of the string.
           appTechnology = String(appTechnology);
           appTechurl = resource.logo_url[appTechnology];
-
           if (appTechurl != null) {
-            $("#personal_project_view").find("#app-logo").append('<td scope="col"><img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" width=100% src="' + appTechurl + '"></td>');
+            $("#personal_project_view").find("#app-logo").append('<span><img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" width=100 src="' + appTechurl + '"></span></span><span>&nbsp;&nbsp;</span>');
           }
           else {
-            $("#personal_project_view").find("#app-logo").append('<td style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" scope="col">' + data[appID].technology[technum] + '</td>');
+            $("#personal_project_view").find("#app-logo").append('</span><span>&nbsp;&nbsp;</span><span id="techtext" style="box-shadow: 2px 2px 2px rgba(0,0,0,0.2); font-size: 21px;">' + data[appID].technology[technum] + '</span><span>&nbsp;&nbsp;</span>');
           }
 
           appTechlength -= 1;
@@ -104,6 +135,11 @@ $("#embed_form").on("click", ".personal_project_list a", function () {
         }
       });
     }
+
+    // Set application member, responsibility & role into modal
+    $("#personal_project_view").find("#app-member").text(appMember);
+    $("#personal_project_view").find("#app-responsibility").text(appResponsibility);
+    $("#personal_project_view").find("#app-role").text(appRole);
 
     // Remove previous photo header then set new photo header into modal
     $("#personal_project_view").find("#app-photo #app-photo-header").remove();
@@ -114,11 +150,19 @@ $("#embed_form").on("click", ".personal_project_list a", function () {
     // Remove previous photo IDs and photos then set photo IDs and photos into modal
     $("#personal_project_view").find(".app-photo-id").remove();
     $("#personal_project_view").find(".app-photo-photo").remove();
+    var imgsource = "";
+    var imgtext = "";
     var imgnum = 0;
     while (appPhotocount > 0) {
       imgnum += 1;
-      var imgsource = appPhotourl + appID + "_" + imgnum + ".jpg";
-      $("#personal_project_view").find("#app-photo").append('<p class="app-photo-id">' + imgnum + '.</p><img class="app-photo-photo" src="' + imgsource + '">');
+      if (data[appID].link.photourl[2][imgnum] != null) {
+        imgtext = data[appID].link.photourl[2][imgnum];
+      }
+      else {
+        imgtext = "";
+      }
+      imgsource = appPhotourl + appID + "_" + imgnum + ".jpg";
+      $("#personal_project_view").find("#app-photo").append('<p class="app-photo-id">' + imgnum + '. ' + imgtext + '</p><img class="app-photo-photo" src="' + imgsource + '">');
       appPhotocount -= 1;
     }
 

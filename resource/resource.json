@@ -5,11 +5,14 @@
         "hibernate"             : "/resource/logo/HIBERNATE.png",
         "html_css_js"           : "/resource/logo/HTML CSS JS.png",
         "java_jdbc"             : "/resource/logo/Java JDBC.png",
+        "jasperreports"         : "/resource/logo/JasperReports.png",
         "java"                  : "/resource/logo/Java.png",
+        "jsf"                   : "/resource/logo/JSF.png",
         "jquery"                : "/resource/logo/jQuery.png",
         "maven"                 : "/resource/logo/Maven.png",
         "microsoft_sql_server"  : "/resource/logo/Microsoft SQL Server.png",
         "mysql"                 : "/resource/logo/MySQL.png",
+        "primefaces"            : "/resource/logo/PrimeFaces.png",
         "spring"                : "/resource/logo/spring.png"
     }
 

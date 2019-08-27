@@ -10,7 +10,7 @@
 <!-- Instead of personal_project.html -->
 <div id="personal_project">
   <div class="personal_project_list">
-    Personal Projects:<br>
+    <h1> Personal Projects </h1><br>
     <a class="personal_project" href="#portfolio" id="marmansys">Marmansys</a><br>
     <a class="personal_project" href="#portfolio" id="knowledgegamble">KnowledgeGamble</a><br>
     <a class="personal_project" href="#portfolio" id="doctor">Doctor</a><br>
@@ -38,45 +38,34 @@
           <p id="app-description">Personal project description.</p>
           <hr>
           <h5>Link</h5>
-          <table id="app-link">
-            <tr id="app-sourcelink">
-              <td>Source Code</td>
-              <td>:</td>
-              <td><a href="#portfolio" class="tooltip-test" title="Click here to see soruce code">Source link</a></td>
-            </tr>
-            <tr id="app-livelink">
-              <td>Live</td>
-              <td>:</td>
-              <td><a href="#portfolio" class="tooltip-test" title="Click here to live browsing">Live link</a></td>
-            </tr>
-            <tr id="app-presentationlink">
-              <td>Presentation</td>
-              <td>:</td>
-              <td><a href="#portfolio" class="tooltip-test" title="Click here to see presentation">View link</a></td>
-            </tr>
-          </table>
+          <div class="container" id="app-link">
+            <div class="row" id="app-sourcelink"></div>
+            <div class="row" id="app-livelink"></div>
+            <div class="row" id="app-presentationlink"></div>
+            <div class="row" id="app-tutoriallink"></div>
+          </div>
           <hr>
           <h5>Duration</h5>
-          <table id="app-duration-holder">
-            <tr>
-              <td>Start Date</td>
-              <td>:</td>
-              <td id="app-startdate">Personal project Start Date:</td>
-            </tr>
-            <tr>
-              <td>End Date</td>
-              <td>:</td>
-              <td id="app-enddate">Personal project End Date:</td>
-            </tr>
-            <tr>
-              <td>Duration</td>
-              <td>:</td>
-              <td><span id="app-duration">project Duration:</span> Day(s)</td>
-            </tr>
-          </table>
+          <div class="container" id="app-duration-holder">
+            <div class="row">
+              <div class="col-sm-3">Start Date</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-8" id="app-startdate">Personal project Start Date:</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">End Date</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-8" id="app-enddate">Personal project End Date:</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">Duration</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-8"><span id="app-duration">project Duration:</span> Day(s)</div>
+            </div>
+          </div>
           <hr>
           <h5>Technology</h5>
-          <table class="table" id="app-logo"></table>
+          <div class="col-xs-12" id="app-logo"></div>
           <hr>
           <h5>Member</h5>
           <p id="app-member">Member</p>

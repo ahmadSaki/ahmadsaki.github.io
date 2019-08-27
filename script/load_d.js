@@ -20,7 +20,13 @@ $(document).ready(function () {
     // Current browsing menu wise reload page form loading
     var current_view = $(location).attr('hash');
 
-    if (current_view == "#portfolio") {
+    if (current_view == "#about") {
+        jQuery("#embed_form").load("form/about/about.html");
+    }
+    else if (current_view == "#gallery") {
+        jQuery("#embed_form").load("form/gallery/gallery.html");
+    }
+    else if (current_view == "#portfolio") {
         jQuery("#embed_form").load("form/portfolio/portfolio.html");
     }
     else if (current_view == "#contact") {
@@ -42,7 +48,14 @@ $(document).ready(function () {
     $("#embed_menu").on("click", "#menu a", function () {
 
         var manuname = $(this).find('li').text();
-        if (manuname == "Home") {
+        
+        if (manuname == "About") {
+            jQuery("#embed_form").load("form/about/about.html");
+        }
+        else if (manuname == "Gallery") {
+            jQuery("#embed_form").load("form/gallery/gallery.html");
+        }
+        else if (manuname == "Home") {
             jQuery("#embed_form").load("form/home.html");
         }
         else if (manuname == "Portfolio") {
