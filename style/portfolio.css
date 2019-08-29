@@ -16,8 +16,10 @@
 }
 
 .personal_project_list {
-  margin: auto;
-  width: 50%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    /* padding: 100px 0px 0px 150px; */
 }
 
 .modal-dialog-centered {

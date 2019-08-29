@@ -47,21 +47,21 @@ $(document).ready(function () {
     // Based on menu load form into index.html
     $("#embed_menu").on("click", "#menu a", function () {
 
-        var manuname = $(this).find('li').text();
+        var menuname = $(this).text();
         
-        if (manuname == "About") {
+        if (menuname == "About") {
             jQuery("#embed_form").load("form/about/about.html");
         }
-        else if (manuname == "Gallery") {
+        else if (menuname == "Gallery") {
             jQuery("#embed_form").load("form/gallery/gallery.html");
         }
-        else if (manuname == "Home") {
+        else if (menuname == "Home") {
             jQuery("#embed_form").load("form/home.html");
         }
-        else if (manuname == "Portfolio") {
+        else if (menuname == "Portfolio") {
             jQuery("#embed_form").load("form/portfolio/portfolio.html");
         }
-        else if (manuname == "Contact") {
+        else if (menuname == "Contact") {
             jQuery("#embed_form").load("form/contact/contact.html");
         }
     });

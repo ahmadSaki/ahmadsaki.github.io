@@ -1,4 +1,10 @@
 
+$(document).ready(function () {
+  $('[data-toggle=canvas]').click(function () {
+    $('.folio-canvas').toggleClass('play');
+  });
+});
+
 function cvDownload(x) {
   var current_view = $(location).attr('hash');
   var url;
@@ -14,5 +20,5 @@ function cvDownload(x) {
   document.getElementById("cvLink").href=current_view;
   window.open(url, 'Download');
   
-  // window.alert(current_view)
+  //  window.alert(current_view)
 } 

@@ -1,13 +1,159 @@
-.home{
-  margin: auto;
-  width: 50%;
+
+
+html,
+body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */
+  height: 100%;
 }
 
-body {
-  background-color: white;
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  background-color: black;  
+  color: white;
+  text-align: right;
+  padding: 0px 20px;
 }
 
 .selfname {
-  color: blue;
+  color: whitesmoke;
 }
+
+.port {
+  top: 100px;
+}
+
+.home{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  /* padding: 100px 0px 0px 150px; */
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  text-align: right;
+  padding: 0px 20px;
+}
+
+
+/* port folio-canvas action */
+@media screen and (min-width: 768px) {
+	
+  .folio-canvas {
+    position: relative;
+    left: 7%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+	}
+	
+  .folio-canvas.play {
+    left: 0;
+  }
+
+  .folio-canvas.play .content {
+      width: 100%;
+  }
+
+  .folio-canvas .content {
+    width: 93%;
+    float: left;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+  .folio-canvas .sidebar-canvas {
+    position: absolute;
+    top: 0;
+    width: 8%;
+    left: -8%;
+    padding: 28px;
+    margin-left: -15px;
+  }
+
+  .folio-canvas.play .btn-collapse i {
+    transform: rotate(180deg);
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+	.folio-canvas {
+    left: 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+  .folio-canvas.play {
+    left: 40%;
+  }
+  
+	.sidebar-canvas {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: -50%;
+    margin-right: auto;
+	}
+}
+
+/* styling the sidebar and the toggle button */
+.content {
+  position: relative;
+}
+
+.sidebar {
+  background: rgba(51, 122, 183, 0.09);
+  padding: 7px 15px 0px 0px;
+  margin-top: -35px;
+  border-radius: 0 0 0 5px;
+}
+
+.btn-collapse {
+  position: absolute;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px 5px 0 0;
+  top: 0px;
+  left: 0px;
+  margin-left: -30px;
+  background: rgba(51, 122, 183, 0.09);
+  transform: rotate(90deg);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.folio-canvas.play .btn-collapse {
+  left: 0;
+  margin-left: -30px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+
+
 

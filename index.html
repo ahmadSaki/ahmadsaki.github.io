@@ -2,11 +2,12 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ahmad Saki Self-Folio</title>
 
+    <link rel="stylesheet" href="style/bootstrap-4.3.1.css">
     <link rel="stylesheet" href="style/home.css">
-    <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="style/about.css">
     <link rel="stylesheet" href="style/gallery.css">
     <link rel="stylesheet" href="style/portfolio.css">
@@ -14,29 +15,36 @@
 </head>
 
 <body>
-    <!-- Load header into index.html -->
-    <div id="embed_header"></div>
+    <div class="container-fluid">
 
-    <br /><br />
+        <!-- Load header into index.html -->
+        <div class="header" id="embed_header"></div>
 
-    <!-- Load menu into index.html -->
-    <div id="embed_menu"></div>
+        <div class="port folio-canvas">
+            <!-- Load menu into index.html -->
+            <div id="embed_menu"></div>
+
+            <div class="content">
+                <p class="pull-left">
+                    <a type="button" class="btn btn-collapse btn-sm" data-toggle="canvas">
+                        <i class="glyphicon glyphicon-chevron-up"></i> Menubar</a>
+                </p>
+
+                <!-- Load form into index.html -->
+                <div id="embed_form"></div> <!-- class="text-center" -->
+                <!-- <div id="embed_form"></div> -->
+            </div>
+        </div>
+
+        <!-- Load footer into index.html -->
+        <div class="footer" id="embed_footer"></div>
+
+    </div>
+
     
-    <br /><br />
-
-    <!-- Load form into index.html -->
-    <div id="embed_form"></div>
-
-    <br /><br />
-
-    <!-- Load footer into index.html -->
-    <div id="embed_footer"></div>
-
-
-
-    <script type="text/javascript" src="script/home.js"></script>
     <script type="text/javascript" src="script/jquery-3.4.1.js"></script>
     <script src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/home.js"></script>
     <script type="text/javascript" src="script/load_d.js"></script>
 </body>
 
