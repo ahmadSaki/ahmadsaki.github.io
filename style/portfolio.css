@@ -1,19 +1,4 @@
 
-#app-logo #techtext {
-    vertical-align: middle;
-}
-
-.app-photo-id{
-  width:100%;
-}
-
-.app-photo-photo{
-  width:100%;
-}
-
-#personal_project a{
-    width: 50%;
-}
 
 .personal_project_list {
     width: 50%;
@@ -23,10 +8,43 @@
 }
 
 .modal-dialog-centered {
-min-width: 50%;
-margin: auto;
+  min-width: 50%;
+  margin: auto;
 }
 
 .modal-dialog-centered .modal-content {
-min-height: 100vh;
+  min-height: 100vh;
+}
+
+#personal_project a{
+  width: 50%;
+}
+
+#app-logo #techtext {
+  vertical-align: middle;
+}
+
+.app-photo-id{
+  width:100%;
+}
+
+.app-photo-photo{
+width:100%;
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+
+  .personal_project_list{
+    width: 100%;
+    margin: 0 auto; 
+    text-align: justify;
+    padding: 50px 0px 0px 0px;
+  }
+  
+  .personal_project_list a{
+    padding: 0px 0px 0px 40px;
+  }
+
+  .modal-body #app-link{
 }
