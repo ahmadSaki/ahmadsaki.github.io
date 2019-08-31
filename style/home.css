@@ -48,6 +48,7 @@ body {
 
 /* port folio-canvas action */
 /* @media screen and (min-width: 991px) {start of large tablet styles} */
+
 @media screen and (min-width: 767px) {
   /* start of medium tablet styles */
   .folio-canvas {
@@ -122,7 +123,7 @@ body {
 	}
   
   .folio-canvas.play {
-    top: 95px;
+    top: 135px;
     float: top;
   }
 
@@ -137,16 +138,13 @@ body {
   }
 
   .folio-canvas .btn-collapse {
-    position: absolute;
+    position: fixed;
     transform: rotate(0deg);
     padding: 5px 0px 5px 0px;
-    border-radius: 0px 0px 10px 10px;
-    /* border-block-color : white; */
-    /* border-block-start-width: 2px; */
-    top: 0px;
+    border-radius: 1px 1px 1px 1px;
+    top: 70px;
     right: 0px;
     margin: 0;
-    /* background: rgba(51, 122, 183, 0.09); */
   }
   
 }
@@ -181,7 +179,7 @@ body {
 	}
   
   .folio-canvas.play {
-    top: 95px;
+    top: 135px;
     float: top;
   }
 
@@ -196,16 +194,11 @@ body {
   }
 
   .folio-canvas .btn-collapse{
-    position: absolute;
+    position: fixed;
     transform: rotate(0deg);
     padding: 5px 0px 5px 0px;
-    border-radius: 0px 0px 10px 10px;
-    /* border-block-color : white; */
-    /* border-block-start-width: 2px; */
-    top: 0px;
-    right: 0px;
-    margin: 0;
-    /* background: rgba(51, 122, 183, 0.09); */
+    border-radius: 1px 1px 1px 1px;
+    top: 70px;
   }
   
 }
