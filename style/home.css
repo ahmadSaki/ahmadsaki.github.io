@@ -20,6 +20,7 @@ body {
   z-index: 1;
 }
 
+
 .selfname {
   color: whitesmoke;
 }
@@ -80,9 +81,9 @@ body {
   .folio-canvas .sidebar-canvas {
     position: absolute;
     top: 0;
-    width: 8%;
-    left: -8%;
-    padding: 28px;
+    width: 9%;
+    left: -9%;
+    padding: 30px 0px 0px 40px;
     margin-left: -15px;
   }
 
@@ -111,7 +112,7 @@ body {
 
   .folio-canvas {
     position: relative;
-    top: -110px;
+    top: -195px;
     float: top;
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
@@ -170,7 +171,7 @@ body {
 
   .folio-canvas {
     position: relative;
-    top: -110px;
+    top: -px;
     float: top;
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
@@ -219,6 +220,26 @@ body {
   padding: 7px 15px 0px 0px;
   margin-top: -35px;
   border-radius: 0 0 0 5px;
+  
+}
+
+.sidebar a {
+  width: 100%;
+  display: inline-block;
+  color: rgb(3, 150, 125);
+}
+
+.sidebar a:hover {
+  background-color: rgb(3, 150, 125);
+  /* border: .5px solid #C0DEED;  */
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+
+.sidebar a:active {
+  background-color: rgb(214, 184, 212);
+  color: green;
 }
 
 .btn-collapse {
@@ -230,10 +251,12 @@ body {
   margin-left: -20px;
   background: rgba(51, 122, 183, 0.09);
   transform: rotate(90deg);
+  font-weight: normal;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 @-webkit-keyframes blinker {
-  from {opacity: 1.0;color: rgb(51, 56, 4);font-family: Arial, Helvetica, sans-serif;}
+  from {opacity: 1.0;color: rgb(35, 129, 16);font-family: Arial, Helvetica, sans-serif;}
   to {opacity: 0.7;color: rgb(55, 5, 58);font-family: Arial, Helvetica, sans-serif;}
   
 }
