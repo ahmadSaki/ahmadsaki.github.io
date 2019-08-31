@@ -32,6 +32,21 @@
 width:100%;
 }
 
+@media screen and (max-width: 740px) {
+  /* start of phone landscape styles */
+  
+  .personal_project_list{
+    width: 100%;
+    margin: 0 auto; 
+    text-align: justify;
+    padding: 50px 0px 0px 20px;
+  }
+
+  .personal_project_list a{
+    padding: 0px 0px 0px 40px;
+  }
+}
+
 @media screen and (max-width: 479px) {
   /* start of phone styles */
 

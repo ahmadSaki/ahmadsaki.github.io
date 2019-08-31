@@ -91,6 +91,65 @@ body {
   }
 }
 
+@media screen and (max-width: 740px) {
+  /* start of phone landscape styles */
+  
+  .header {
+    padding: 0px 20px 0px 0px;
+  }
+
+  .home{
+    width: 100%;
+    margin: 0 auto; 
+    text-align: justify;
+    padding: 50px 0px 0px 0px;
+  }
+
+  .footer {
+    padding: 0px 20px 0px 0px;
+  }
+
+  .folio-canvas {
+    position: relative;
+    top: -110px;
+    float: top;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+	}
+  
+  .folio-canvas.play {
+    top: 95px;
+    float: top;
+  }
+
+  .folio-canvas .content{
+    overflow: auto;
+    min-height: 150vh;
+  }
+
+  .folio-canvas .sidebar-canvas {
+    text-align: center;
+    padding: 15px 0px 1px 0px;
+  }
+
+  .folio-canvas .btn-collapse{
+    position: absolute;
+    transform: rotate(0deg);
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px 5px 0 0;
+    border-block-color : white;
+    border-block-start-width: 2px;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    background: rgba(51, 122, 183, 0.09);
+  }
+  
+}
+
 @media screen and (max-width: 479px) {
   /* start of phone styles */
   
