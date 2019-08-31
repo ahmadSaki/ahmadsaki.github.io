@@ -112,7 +112,7 @@ body {
 
   .folio-canvas {
     position: relative;
-    top: -195px;
+    top: -190px;
     float: top;
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
@@ -136,17 +136,17 @@ body {
     padding: 15px 0px 1px 0px;
   }
 
-  .folio-canvas .btn-collapse{
+  .folio-canvas .btn-collapse {
     position: absolute;
     transform: rotate(0deg);
     padding: 5px 0px 5px 0px;
-    border-radius: 5px 5px 0 0;
-    border-block-color : white;
-    border-block-start-width: 2px;
+    border-radius: 0px 0px 10px 10px;
+    /* border-block-color : white; */
+    /* border-block-start-width: 2px; */
     top: 0px;
     right: 0px;
     margin: 0;
-    background: rgba(51, 122, 183, 0.09);
+    /* background: rgba(51, 122, 183, 0.09); */
   }
   
 }
@@ -171,7 +171,7 @@ body {
 
   .folio-canvas {
     position: relative;
-    top: -px;
+    top: -190px;
     float: top;
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
@@ -199,13 +199,13 @@ body {
     position: absolute;
     transform: rotate(0deg);
     padding: 5px 0px 5px 0px;
-    border-radius: 5px 5px 0 0;
-    border-block-color : white;
-    border-block-start-width: 2px;
+    border-radius: 0px 0px 10px 10px;
+    /* border-block-color : white; */
+    /* border-block-start-width: 2px; */
     top: 0px;
     right: 0px;
     margin: 0;
-    background: rgba(51, 122, 183, 0.09);
+    /* background: rgba(51, 122, 183, 0.09); */
   }
   
 }
@@ -245,20 +245,19 @@ body {
 .btn-collapse {
   position: absolute;
   padding: 5px 5px 5px 5px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
   top: 0px;
   left: 0px;
   margin-left: -20px;
-  background: rgba(51, 122, 183, 0.09);
+  /* background: rgba(51, 122, 183, 0.09); */
   transform: rotate(90deg);
   font-weight: normal;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 @-webkit-keyframes blinker {
-  from {opacity: 1.0;color: rgb(35, 129, 16);font-family: Arial, Helvetica, sans-serif;}
-  to {opacity: 0.7;color: rgb(55, 5, 58);font-family: Arial, Helvetica, sans-serif;}
-  
+  from {opacity: 1.0;color: rgb(35, 129, 16);font-family: Arial, Helvetica, sans-serif;border-block-color: rgb(42, 165, 155); background-color:rgb(206, 224, 224)}
+  to {opacity: 0.7;color: rgb(55, 5, 58);font-family: Arial, Helvetica, sans-serif;border-block-color: royalblue;background-color:rgb(197, 238, 217);}
 }
 .btn-collapse{
 	text-decoration: blink;
