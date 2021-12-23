@@ -28,7 +28,10 @@ git branch -d <Branchname>				# Delete the branch ('-D' will delete unmerge bran
 
 git clone <URL>						# Clone repository into a new repository
 
+git remote -v 						# Check remote URL
 git remote add origin <URL>				# Add a remote repository
+git remote remove origin 				# Delete remote URL
+git remote add origin git@github.com:user/repo.git  	# Add a remote repository
 
 git fetch						# Fetch from remote repository
 git fetch origin					# Fetch from remote repository
@@ -125,5 +128,13 @@ Issue_04:
 	
 Finding_04:
 	CLI>> git merge FETCH_HEAD --allow-unrelated-histories
+
+Issue_05:
+	Support for password authentication was removed. Please use a personal access token instead
+
+Finding_05:
+	https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
+	
+	git remote set-url origin https://<token>@github.com/<username>/<repo>.git
 	
 	
