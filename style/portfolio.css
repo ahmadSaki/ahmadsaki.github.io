@@ -22,7 +22,7 @@
   min-height: 100vh;
 }
 
-#personal_project a{
+.personal_project_list a{
   width: 50%;
   padding: 0px 0px 100px 40px;
 }

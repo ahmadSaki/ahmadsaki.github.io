@@ -8,7 +8,13 @@
             "live":"",
             "presentation":"",
             "tutorial":"",
-            "photourl": ["/resource/portfolio/professional_project/photo/capita/",0,{
+            "photourl": ["/resource/portfolio/professional_project/photo/capita/",12,{
+                "1":"Login Screen",
+                "2":"Home Screen",
+                "3":"User wise Menu Assigning Screen",
+                "10":"Investor Portfolio Report",
+                "11":"Broker Commission Branch wise Summary Report",
+                "12":"Balance Sheet Report"
             }]
         },
         "date" : {
@@ -52,7 +58,7 @@
             "live":"",
             "presentation":"",
             "tutorial":"",
-            "photourl": ["/resource/portfolio/professional_project/photo/unimart_holdings/",0,{
+            "photourl": ["/resource/portfolio/professional_project/photo/unimart_holdings/",13,{
             }]
         },
         "date" : {
@@ -140,7 +146,7 @@
             "live":"",
             "presentation":"",
             "tutorial":"",
-            "photourl": ["/resource/portfolio/professional_project/photo/zab_pos/",0,{
+            "photourl": ["/resource/portfolio/professional_project/photo/zab_pos/",14,{
             }]
         },
         "date" : {
@@ -184,7 +190,7 @@
             "live":"",
             "presentation":"",
             "tutorial":"",
-            "photourl": ["/resource/portfolio/professional_project/photo/unimart_dhanmondi/",0,{
+            "photourl": ["/resource/portfolio/professional_project/photo/unimart_dhanmondi/",2,{
             }]
         },
         "date" : {
@@ -206,7 +212,7 @@
             "live":"",
             "presentation":"",
             "tutorial":"",
-            "photourl": ["/resource/portfolio/professional_project/photo/mamiyaop/",0,{
+            "photourl": ["/resource/portfolio/professional_project/photo/mamiyaop/",2,{
             }]
         },
         "date" : {
@@ -228,7 +234,7 @@
             "live":"",
             "presentation":"",
             "tutorial":"",
-            "photourl": ["/resource/portfolio/professional_project/photo/unimart_express_uhl/",0,{
+            "photourl": ["/resource/portfolio/professional_project/photo/unimart_express_uhl/",1,{
             }]
         },
         "date" : {
@@ -250,7 +256,7 @@
             "live":"",
             "presentation":"",
             "tutorial":"",
-            "photourl": ["/resource/portfolio/professional_project/photo/unimart_gulshan/",0,{
+            "photourl": ["/resource/portfolio/professional_project/photo/unimart_gulshan/",3,{
             }]
         },
         "date" : {
@@ -272,7 +278,7 @@
             "live":"",
             "presentation":"",
             "tutorial":"",
-            "photourl": ["/resource/portfolio/professional_project/photo/united_group/",0,{
+            "photourl": ["/resource/portfolio/professional_project/photo/united_group/",3,{
             }]
         },
         "date" : {
