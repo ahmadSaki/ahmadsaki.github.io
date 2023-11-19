@@ -1,28 +1,67 @@
-<!-- Include all the elements of personal_project.html in portfolio.html -->
-<div id="personal_project" personal_project_html="form/portfolio/personal_project.html"></div>
-
 <script type="text/javascript" src="script/jquery-3.4.1.js"></script>
 <script src="script/portfolio.js"></script>
 <!-- <script>embed_personal_project();</script>  -->
 <!-- Calling for including elements of personal_project.html into portfolio.html -->
 <!-- Include all the elements of personal_project.html into portfolio.html ---->
 
-<!-- Instead of personal_project.html -->
+<!-- Professional Project List -->
+<div class="professional_project_list">
+  <h1>Professional Projects</h1>
+    <ul>
+      <li>Capita (Brokerage House & Merchant Bank Back-Office Management System)
+        <a class="professional_project" href="#portfolio" id="capita">more</a></li>
+      <li>MBank (Merchant Bank Back-Office Management)
+        <a class="professional_project" href="#portfolio" id="mbank">more</a></li>
+      <li>Unimart Holdings (Cost Center wise Production, Food & Beverage (Food Court POS & ERP) and Commission & Tenant Management System)
+        <a class="professional_project" href="#portfolio" id="unimart_holdings">more</a></li>
+      <li>Spontaneous Payment System (Client License Management, Payment Gateway integration into Software System)
+        <a class="professional_project" href="#portfolio" id="spontaneous_payment_system">more</a></li>
+      <li>EFD (Electronic Fiscal Device) or
+        SDC (Sales Data Controller) Integration into POS
+    <a class="professional_project" href="#portfolio" id="efd_sdc">more</a></li>
+      <li>Tableau (Data Analysis &
+        Visualization System/Tool for a Super Market)
+    <a class="professional_project" href="#portfolio" id="tableau">more</a></li>
+      <li>ZAB POS (Food Court POS System)
+        <a class="professional_project" href="#portfolio" id="zab_pos">more</a></li>
+      <li>Customer Portal (A Portal
+        integrated with an E-Commerce and an ERP
+        System)
+    <a class="professional_project" href="#portfolio" id="customer_portal">more</a></li>
+      <li>Unimart (Super Shop POS & ERP
+        System at Dhanmondi, Dhaka)
+    <a class="professional_project" href="#portfolio" id="unimart_dhanmondi">more</a></li>
+    <li>Mamiya-OP Bangladesh Ltd (HRM &
+      Payroll)
+  <a class="professional_project" href="#portfolio" id="mamiyaop">more</a></li>
+    <li>Unimart Express (Super Shop POS
+      System at United Hospital, Gulshan-2, Dhaka)
+  <a class="professional_project" href="#portfolio" id="unimart_express_uhl">more</a></li>
+    <li>Unimart (Super Shop POS & ERP
+      System at Gulshan-2, Dhaka)
+  <a class="professional_project" href="#portfolio" id="unimart_gulshan">more</a></li>
+    <li>United Group ERP System
+      <a class="professional_project" href="#portfolio" id="united_group">more</a></li>
+    </ul>
+</div>
+<!-- Professional Project List -->
+
+<!-- Personal Project List -->
 <div id="personal_project">
   <div class="personal_project_list">
     <h1> Personal Projects </h1>
+    <a class="personal_project" href="#portfolio" id="ecosense">EcoSense</a><br>
     <a class="personal_project" href="#portfolio" id="marmansys">Marmansys</a><br>
     <a class="personal_project" href="#portfolio" id="knowledgegamble">KnowledgeGamble</a><br>
     <a class="personal_project" href="#portfolio" id="doctor">Doctor</a><br>
     <a class="personal_project" href="#portfolio" id="androweb">AndroWeb</a><br>
-    <a class="personal_project" href="#portfolio" id="chorpolice">Chor Police</a><br>
+    <a class="personal_project" href="#portfolio" id="chorpolice">Chor Police</a>
   </div>
 </div>
-<!-- Instead of personal_project.html -->
+<!-- Personal Project List -->
 
-
-<!-- personal_project_view Modal -->
-<div class="modal" id="personal_project_view" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+<!-- project_view Modal -->
+<div class="modal" id="project_view" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -34,8 +73,8 @@
       </div>
       <div class="modal-body">
         <div class="modal-body">
-          <h5>Decription</h5>
-          <p id="app-description">Personal project description.</p>
+          <h5>Overview</h5>
+          <p id="app-description">project description.</p>
           <hr>
           <h5>Link</h5>
           <div class="container" id="app-link">
@@ -50,12 +89,12 @@
             <div class="row">
               <div class="col-sm-3">Start Date</div>
               <div class="col-sm-1">:</div>
-              <div class="col-sm-8" id="app-startdate">Personal project Start Date:</div>
+              <div class="col-sm-8" id="app-startdate">project Start Date:</div>
             </div>
             <div class="row">
               <div class="col-sm-3">End Date</div>
               <div class="col-sm-1">:</div>
-              <div class="col-sm-8" id="app-enddate">Personal project End Date:</div>
+              <div class="col-sm-8" id="app-enddate">project End Date:</div>
             </div>
             <div class="row">
               <div class="col-sm-3">Duration</div>
@@ -85,6 +124,6 @@
     </div>
   </div>
 </div>
+<!-- project_view Modal -->
 
 <script src="script/bootstrap.min.js"></script>
-<!-- personal_project_view Modal -->

@@ -1,4 +1,10 @@
 
+.professional_project_list {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  /* padding: 100px 0px 0px 150px; */
+}
 
 .personal_project_list {
     width: 50%;
@@ -18,6 +24,7 @@
 
 #personal_project a{
   width: 50%;
+  padding: 0px 0px 100px 40px;
 }
 
 #app-logo #techtext {
@@ -35,6 +42,17 @@ width:100%;
 @media screen and (max-width: 740px) {
   /* start of phone landscape styles */
   
+  .professional_project_list{
+    width: 100%;
+    margin: 0 auto; 
+    text-align: justify;
+    padding: 50px 0px 0px 20px;
+  }
+
+  .professional_project_list a{
+    padding: 0px 0px 0px 40px;
+  }
+  
   .personal_project_list{
     width: 100%;
     margin: 0 auto; 
@@ -49,6 +67,16 @@ width:100%;
 
 @media screen and (max-width: 479px) {
   /* start of phone styles */
+  .professional_project_list{
+    width: 100%;
+    margin: 0 auto; 
+    text-align: justify;
+    padding: 50px 0px 0px 0px;
+  }
+  
+  .professional_project_list a{
+    padding: 0px 0px 0px 40px;
+  }
 
   .personal_project_list{
     width: 100%;
@@ -60,6 +88,4 @@ width:100%;
   .personal_project_list a{
     padding: 0px 0px 0px 40px;
   }
-
-  .modal-body #app-link{
 }

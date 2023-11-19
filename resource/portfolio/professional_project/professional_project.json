@@ -1,0 +1,287 @@
+{
+    "capita": {
+        "id": "capita",
+        "title": "Capita (Brokerage House & Merchant Bank Back-Office Management)",
+        "description": "New Business Requirement and Feature Design, Impact Analysis, Form Design, Coding & PLSQL Script Development, Testing, Implementation, Bug Fixing, Report Development of Existing System, and Maintenance along with team collaborations of Capital Market Portfolio Management System.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/capita/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2022-04-01T00:00:00.000Z",
+            "enddate":"2023-10-15T23:59:59.999Z"
+        },
+        "technology":["Java","OracleADF","Oracle11g","Oracle12c","Oracle19c","OracleWeblogic","OracleBIPublisher"],
+        "member":"Twenty",
+        "responsibility":"Feature Improvement, Integration, Bug Fixing & Maintenance",
+        "role":"Senior Software Engineer"
+    },
+
+    "mbank": {
+        "id": "mbank",
+        "title": "MBank (Merchant Bank Back-Office Management)",
+        "description": "Operational and Database Support to the Clients, TSQL Script Upgradation, and Crystal Report Design and Development.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/mbank/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2022-01-20T00:00:00.000Z",
+            "enddate":"2023-10-15T23:59:59.999Z"
+        },
+        "technology":["Microsoft SQL Server","DotNet","CrystalReport","CrystalReportSAP"],
+        "member":"Two",
+        "responsibility":"Maintenance, Operational & Database Support",
+        "role":"Technical Support and Maintenance Engineer"
+    },
+
+    "unimart_holdings": {
+        "id": "unimart_holdings",
+        "title": "Unimart Holdings (Cost Center wise Production, Food & Beverage (Food Court POS & ERP) and Commission & Tenant Management)",
+        "description": "The Central ERP System integrates Fourtcourt POS, Retail POS, and Food Production Systems with various modules, including SCM, Inventory, Sales, Accounts, Administration, Management, Form, Dashboard, Report Development, Bug Fixing, Performance Enhancement, and System Improvement Planning, as well as Client Training, Support, and Maintenance is the main responsibilities of the project.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/unimart_holdings/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2019-02-01T00:00:00.000Z",
+            "enddate":"2022-01-31T23:59:59.999Z"
+        },
+        "technology":["spring","SpringBoot","JavaFX","WindowsServer2012","ZAB","Microsoft SQL Server","CrystalReport","CrystalReportSAP"],
+        "member":"Ten",
+        "responsibility":"Design, Deployment, Testing, Integration & Maintenance",
+        "role":"Lead Engineer"
+    },
+    
+    "spontaneous_payment_system": {
+        "id": "spontaneous_payment_system",
+        "title": "Spontaneous Payment System (Client License Management, Payment Gateway integration into Software)",
+        "description": "Design, Development, Implementation, Upgradation, and Maintenance of the License Management System. Food-court POS and other Software users pay their Monthly Maintenance Charge using the System and upgrade their license validity automatically other payments can be received by the channel.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/spontaneous_payment_system/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2021-12-01T00:00:00.000Z",
+            "enddate":"2022-01-31T23:59:59.999Z"
+        },
+        "technology":["SpringBoot","Thymeleaf","PostgreSQL","Firebase","PaymentGateway"],
+        "member":"One",
+        "responsibility":"Design, Deployment, Testing, Integration & Maintenance",
+        "role":"Full-Stack Developer"
+    },
+    
+    "efd_sdc": {
+        "id": "efd_sdc",
+        "title": "EFD (Electronic Fiscal Device) or SDC (Sales Data Controller) Integration into POS",
+        "description": "The Device for VAT Gazette by the Bangladesh Government to incorporate into the POS System. API Analysis, System Upgradation, Development, Testing, Integration, Implementation, Report Design and Development, and Maintenance.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/efd_sdc/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2021-09-01T00:00:00.000Z",
+            "enddate":"2022-01-31T23:59:59.999Z"
+        },
+        "technology":["Java","SpringBoot","JavaFX","Microsoft SQL Server","SDC"],
+        "member":"One",
+        "responsibility":"Design, Deployment, Testing, Integration, Deploy & Maintenance",
+        "role":"System Integrator"
+    },
+
+    "tableau": {
+        "id": "tableau",
+        "title": "Tableau (Data Analysis & Visualization System/Tool for a Super Market)",
+        "description": "A Business Data including multiple Outlets, Departments (e.g.: Glossary, Library, etc.), Modules (e.g.: Client Promotions, Resource Management, SCM, Inventory, Accounting, etc.) Analysis, Preparing, Integration, Synchronization and Maintenance.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/tableau/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2021-05-01T00:00:00.000Z",
+            "enddate":"2021-10-31T23:59:59.999Z"
+        },
+        "technology":["Tableau","Microsoft SQL Server","WindowsServer2012","WindowsServer2019"],
+        "member":"Two",
+        "responsibility":"Data Preparation, SQL Script Development, Dashboard & Chart Development, Testing, Integration, Data Synchronization, Performance & Quality Assurance of Queries, Deploy & Maintenance",
+        "role":"SQL Developer"
+    },
+
+    "zab_pos": {
+        "id": "zab_pos",
+        "title": "ZAB POS (Food Court POS System)",
+        "description": "Standalone Point-of-Sales System along with Web Facilities, Architectural Design, System Development using Agile Methodology, Bug Fixing, Business Improvement and Promotional Features Functional Design Enrichment, Performance & Quality Enhancement, Implementation and Maintenance.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/zab_pos/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2018-11-01T00:00:00.000Z",
+            "enddate":"2019-05-31T23:59:59.999Z"
+        },
+        "technology":["SpringBoot","JavaFX","Microsoft SQL Server"],
+        "member":"Three",
+        "responsibility":"Design, Deployment, Testing, Integration, Deploy & Maintenance",
+        "role":"Full-Stack Developer"
+    },
+
+    "customer_portal": {
+        "id": "customer_portal",
+        "title": "Customer Portal (A Portal integrated with an E-Commerce and an ERP System)",
+        "description": "Database Integration, Data Synchronization and Management of an Online Portal with a few services such as Customer Registration, Loyalty Point Management, SMS, Emailing, etc. have been developed and maintain.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/customer_portal/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2019-04-01T00:00:00.000Z",
+            "enddate":"2019-04-30T23:59:59.999Z"
+        },
+        "technology":["Microsoft SQL Server","XAMPP","ZAB","Java","PHP"],
+        "member":"Two",
+        "responsibility":"Database Integration, Data Synchronization, Script Development and Optimization, Script Scheduling, Maintenance",
+        "role":"Data Engineer"
+    },
+
+    "unimart_dhanmondi": {
+        "id": "unimart_dhanmondi",
+        "title": "Unimart (Super Shop POS & ERP System at Dhanmondi, Dhaka).",
+        "description": "The Retail POS with various ERP modules, including SCM, Inventory, Sales, Accounts, Administration, Management, Form, Dashboard, Report Development, Bug Fixing, Performance Enhancement, and System Improvement Planning, as well as Client Training, Support, and Maintenance is the main activities of the project.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/unimart_dhanmondi/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2019-01-01T00:00:00.000Z",
+            "enddate":"2019-04-30T23:59:59.999Z"
+        },
+        "technology":["ZAB","Microsoft SQL Server","CrystalReport","WindowsServer2012","WindowsServer2019"],
+        "member":"Ten",
+        "responsibility":"Deployment, Testing, Integration & Maintenance",
+        "role":"Lead Engineer"
+    },
+
+    "mamiyaop": {
+        "id": "mamiyaop",
+        "title": "Mamiya-OP Bangladesh Ltd (HRM & Payroll)",
+        "description": "A Golf Stick Producing Japanese Company with around 2000 workers and employees has used an HRM & Payroll System. Attendance Device incorporation, Data Synchronization, Process Development, System Design, Development, Testing, User Training, and Support, Different Business Rules including specific time slots and groups of workers Implementation, and Performance enhancement.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/mamiyaop/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2018-10-01T00:00:00.000Z",
+            "enddate":"2018-12-31T23:59:59.999Z"
+        },
+        "technology":["ZAB","Microsoft SQL Server","CrystalReport","WindowsServer2019"],
+        "member":"Six",
+        "responsibility":"Planning, Designing, Deployment, Testing, Maintenance",
+        "role":"Lead Engineer"
+    },
+
+    "unimart_express_uhl": {
+        "id": "unimart_express_uhl",
+        "title": "Unimart Express (Super Shop POS System at United Hospital, Gulshan-2, Dhaka)",
+        "description": "A Web based Standalone Super Shop POS Outlet Data synchronization to the Central System, Bug Fixing, Report Design and Development, Process Improvement.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/unimart_express_uhl/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2017-10-01T00:00:00.000Z",
+            "enddate":"2017-11-30T23:59:59.999Z"
+        },
+        "technology":["ZAB","Microsoft SQL Server","CrystalReportSAP","WindowsServer2012"],
+        "member":"Ten",
+        "responsibility":"Deployment, Testing, Integration & Maintenance",
+        "role":"System Integrator and Implementation Specialist"
+    },
+
+    "unimart_gulshan": {
+        "id": "unimart_gulshan",
+        "title": "Unimart (Super Shop POS & ERP System at Gulshan-2, Dhaka)",
+        "description": "The Retail POS System and A Central ERP Backbone with various modules, including SCM, Inventory, Sales, Accounts, Administration, Management, Data Synchronization and Validation, Form, Dashboard, Report Development, Bug Fixing, Performance Enhancement, and System Improvement Planning, Integration with different Systems such as Customer Registration System, as well as Client Training, Support, and Maintenance are the focused activities of the project.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/unimart_gulshan/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2017-06-01T00:00:00.000Z",
+            "enddate":"2017-10-31T23:59:59.999Z"
+        },
+        "technology":["ZAB","Microsoft SQL Server","CrystalReport","CrystalReportSAP","WindowsServer2012","WindowsServer2019"],
+        "member":"Ten",
+        "responsibility":"Planning, Designing, Deployment, Testing, Integration & Maintenance",
+        "role":"Lead Engineer"
+    },
+
+    "united_group": {
+        "id": "united_group",
+        "title": "United Group ERP System",
+        "description": "The ERP System includes different modules and more than 20 concerns under a single ERP. Form, Feature, and Report Development, Client Training, and Support.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/professional_project/photo/united_group/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2016-12-01T00:00:00.000Z",
+            "enddate":"2017-04-30T23:59:59.999Z"
+        },
+        "technology":["ZAB","Microsoft SQL Server","CrystalReportSAP","WindowsServer2012"],
+        "member":"Seven",
+        "responsibility":"Deployment, Training & Support",
+        "role":"Software Developer"
+    }
+}

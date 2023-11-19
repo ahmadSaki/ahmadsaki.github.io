@@ -1,8 +1,30 @@
 {
+    "ecosense": {
+        "id": "ecosense",
+        "title": "EcoSense - Mushroom: IoT- enabled Omnipresent-Mobile Agriculture",
+        "description": "An automatic Portable Mushroom Cultivation and Management System has been developed using ESP8266, ESP32 Microcontroller, multiple sensors, multiple actuators, and Blink Cloud system.",
+        "link": {
+            "sourcecode": "",
+            "live":"",
+            "presentation":"https://youtu.be/MycgoMPuL3o",
+            "tutorial":"",
+            "photourl": ["/resource/portfolio/personal_project/photo/ecosense/",0,{
+            }]
+        },
+        "date" : {
+            "startdate":"2022-10-01T00:00:00.000Z",
+            "enddate":"2023-07-31T23:59:59.999Z"
+        },
+        "technology":["Blink Cloud","Android","NodeMCU_ESP8266","12C_LCDDisplay","TemperatureSensor","HumiditySensor","SystemFan","WaterPump","5VBattery","5V_DCPowerSupply","5V_DCRelayModule","NodeMCU_ESP32_Font","NodeMCU_ESP32_Back","SIM_800L_GSM"],
+        "member":"One",
+        "responsibility":"A Project submitted to the Department of CSE, Jahangirnagar University in partial fulfillment of the requirements for the degree of M.Sc. in Computer Science",
+        "role":"Engineer"
+    },
+    
     "marmansys": {
         "id": "marmansys",
-        "title": "Marmansys",
-        "description": "Marketing management system",
+        "title": "Marmansys (Marketing Management System)",
+        "description": "A customer-supplier product/service order management system has been created using Spring framework based RESTFul web API and AngularJS based frontend MySQL Database and Jasper Repor.",
         "link": {
             "sourcecode": "https://github.com/sakiAhmad/marmansys.git",
             "live":"",
@@ -23,13 +45,13 @@
         "technology":["spring","Maven","JPA","Hibernate","AngularJS","MySQL","JasperReports","HTML CSS JS"],
         "member":"Four",
         "responsibility":"Planning, Designing, Deployment, Testing & Integration",
-        "role":"Team Leader"
+        "role":"Full-Stack Developer"
     },
 
     "knowledgegamble": {
         "id": "knowledgegamble",
-        "title": "KnowledgeGamble",
-        "description": "Quiz and Answer",
+        "title": "KnowledgeGamble (Quiz & Answer)",
+        "description": "Word matching, selection, multiple question system where eligible users participate in the quiz and admi user creates the role of benefit and quiz. This web application has been created using Spring framework backend with RESTFul web API, frontend using AngularJS, Bootstrap, and MySQL Database.",
         "link": {
             "sourcecode": "https://drive.google.com/open?id=0B4aXOwBEaGefd0tfZXRoRGMybHM",
             "live":"",
@@ -45,13 +67,13 @@
         "technology":["AngularJS","RESTful web service","Bootstrap","MySQL"],
         "member":"Myself",
         "responsibility":"Planning, Designing, Deployment, Testing",
-        "role":"Project holder"
+        "role":"Developer"
     },
     
     "doctor": {
         "id": "doctor",
-        "title": "Doctor",
-        "description": "E-consultancy system betweendoctor and patient",
+        "title": "Doctor (E-consultancy System between Doctors and Patients)",
+        "description": "Using Java web stack, the web application has been built for electronic consultancy and prescription management systems between doctors and patients.",
         "link": {
             "sourcecode": "https://drive.google.com/open?id=0B4aXOwBEaGefSmxlaHZubWY5VGM",
             "live":"",
@@ -66,13 +88,13 @@
         "technology":["JSF","PrimeFaces","Hibernate","MySQL"],
         "member":"Myself",
         "responsibility":"Planning, Designing, Deployment, Testing",
-        "role":"Project holder"
+        "role":"Developer"
     },
     
     "androweb": {
         "id": "androweb",
-        "title": "AndroWeb",
-        "description": "Website as a android app",
+        "title": "WebApp (Website as android app)",
+        "description": "User can use their favorite website/web application as an Android app. This application is built using Java, and Android Studio.",
         "link": {
             "sourcecode": "https://drive.google.com/open?id=0B4aXOwBEaGefTldRYVZUSy04N2s",
             "live":"",
@@ -85,16 +107,16 @@
             "startdate":"2016-07-06T00:00:00.000Z",
             "enddate":"2016-07-20T23:59:59.999Z"
         },
-        "technology":["Java","Android Studio"],
+        "technology":["Java","Android","Android Studio"],
         "member":"Myself",
         "responsibility":"Planning, Designing, Deployment, Testing",
-        "role":"Project holder"
+        "role":"Developer"
     },
 
     "chorpolice": {
         "id": "chorpolice",
-        "title": "Chor Police",
-        "description": "Game (Standalone Application)",
+        "title": "Chor-Police Game",
+        "description": "A Standalone Desktop Application of the only digital version of this Bangladeshi game. The playing step- paper selection, guessing the target person, bonus or penalty, summation of the mark, and reward the winner has been created using Java Swing Framework and MySQL Database.",
         "link": {
             "sourcecode": "https://mega.nz/#!Gk02ACzI",
             "live":"",
@@ -109,6 +131,6 @@
         "technology":["Swing","MySQL"],
         "member":"Myself",
         "responsibility":"Planning, Designing, Deployment, Testing",
-        "role":"Project holder"
+        "role":"Developer"
     }   
 }

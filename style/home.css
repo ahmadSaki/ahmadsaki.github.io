@@ -46,11 +46,20 @@ body {
   padding: 0px 20px 0px 0px;
 }
 
+.menu-btn{
+  position: fixed;
+}
+
+
 /* port folio-canvas action */
 /* @media screen and (min-width: 991px) {start of large tablet styles} */
 
 @media screen and (min-width: 767px) {
   /* start of medium tablet styles */
+.panel-body{
+  position: fixed;
+}
+
   .folio-canvas {
     position: relative;
     left: 0px;
@@ -70,7 +79,7 @@ body {
   }
 
   .folio-canvas .content {
-    width: 93%;
+    width: 100%;
     float: left;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
