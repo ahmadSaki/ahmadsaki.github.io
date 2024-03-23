@@ -4,6 +4,11 @@ git config --global user.name "username"
 # Configure email of local repository to git (only for current directory remove '--global')
 git config --global user.email "email@adress"
 
+# SSH Configuration
+# Copy the key from the path C:\Users\User\.ssh\id_ed25519.pub and set into the github to configure SSH
+ssh -T git@github.com
+ssh-keygen -t ed25519 -C "name@email.com"
+
 git help						# See all of these git command
 git init						# Initialize local git repository ('.git' hidden folder will be here)
 git status						# Check status of working tree
@@ -18,6 +23,8 @@ git rm --cached <FilenameWithExtention>			# Remove the file from Index (Staging 
 git rm -r <FilenameWithExtention>			# Remove the file from Repository
 
 git commit -m "message"					# Commit changes in Index (Staging Area)
+git commit --amend --no-edit				# Commit along with previous version
+git commit -a-m "message"				# Commit along with previous version
 
 git branch						# Check all of the branches ('* Branchname' means current branch)
 git branch <Branchname>					# Create new branch of the repository
@@ -54,11 +61,15 @@ git log							# Show the log of this repository
 git log --before='DatetimeOrDate'			# Chronological histore of this repository
 git log --author='AuthorName'				# Author history of this repository
 git log --oneline					# Give list of commits in one line
+git reflog						# Reference logs
 
 git revert <CommitID>					# Revert to previous commit
 git revert HEAD						# Revert to last commit
 
 git rebase <Branchname>					# Status of up to date branch
+
+git diff --cashed					# Changes of tracked file
+git diff						# Differences
 
 ls							# List file(s) in the directory
 clear							# Clear command prompt
