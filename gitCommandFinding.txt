@@ -30,7 +30,6 @@ git branch						# Check all of the branches ('* Branchname' means current branch
 git branch <Branchname>					# Create new branch of the repository
 git checkout -b <Branchname>				# Create new branch and also make it current working branch
 git checkout <Branchname>				# Switch to the branch
-git merge <Branchname>					# The branch will merge with default 'master' branch
 git branch -d <Branchname>				# Delete the branch ('-D' will delete unmerge branch also)
 
 git clone <URL>						# Clone repository into a new repository
@@ -43,7 +42,6 @@ git remote add origin git@github.com:user/repo.git  	# Add a remote repository
 git fetch						# Fetch from remote repository
 git fetch origin					# Fetch from remote repository
 git fetch origin <LocalBranchName>:<RemoteBranchName>	# Fetch from remote repository
-git merge FETCH_HEAD -m <Message>			# Integrate remote and local changes
 git pull						# Pull latest from remote repository
 
 git push -u origin <Branchname>				# Push to remote repository (first time need to use username & password)
@@ -70,6 +68,12 @@ git rebase <Branchname>					# Status of up to date branch
 
 git diff --cashed					# Changes of tracked file
 git diff						# Differences
+
+git merge FETCH_HEAD -m <Message>			# Integrate remote and local changes
+git merge <Branchname>					# The branch will merge with the given branch
+git merge <CommitID>					# The branch will merge to the given commit
+
+git cherry-pick <CommitID>				# Cherry-pick to the given commit
 
 ls							# List file(s) in the directory
 clear							# Clear command prompt
