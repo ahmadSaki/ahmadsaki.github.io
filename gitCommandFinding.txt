@@ -46,6 +46,7 @@ git pull						# Pull latest from remote repository
 
 git push -u origin <Branchname>				# Push to remote repository (first time need to use username & password)
 git push origin <Branchname>				# Push to remote repository (first time need to use username & password)
+git push -f -u orgin <Brandhname>			# Push to remote repository (when git push rejected "non-fast-forward")
 
 git clean -n						# Modified or new (Non-index Or Unstaging ares's file(s)) file(s) will listed
 git clean -f						# Modified or new (Non-index Or Unstaging ares's file(s)) file(s) will cleaned forcefully.
